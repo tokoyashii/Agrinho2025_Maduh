@@ -7,3 +7,36 @@
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link:#66b19a;
 }
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #71a387;
+}
+
+
+section {
+    padding-bottom: 5rem;
+}
+
+
+.nav-link {
+    color: hwb(167 10% 54%)5% 0%)5% 0%);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('img/fundo\ verde.jpeg');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}

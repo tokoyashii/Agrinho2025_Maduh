@@ -131,3 +131,4 @@ h2 {
 .alto-contraste .btn-primary{
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)
+}

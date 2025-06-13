@@ -40,3 +40,59 @@ section {
     padding: 40px;
     margin: 0 auto;
 }
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--verde-claro);
+}
+
+#galeria {
+    background-color: #f4f8fa;
+
+}
+
+.fundo-galeria {
+    background: url('img/planta.avif') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/backgroud2.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #7c6357 85% 0%);
+    padding: 2rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: rgb(207, 192, 183)
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;

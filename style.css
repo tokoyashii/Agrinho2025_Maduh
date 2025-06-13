@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --verde-claro: #cdf7b9;
+    --verde-claro: #c3eeb0;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link:#66b19a;
+    --alto-contraste-link:#62bd88;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #71a387;
+    background-color: #c6ffbb;
 }
 
 
@@ -24,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: hwb(167 10% 54%)5% 0%)5% 0%);
+    color: hwb(133 10% 54%)5% 0%)5% 0%);
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/backgroud2.jpg');
+    background-image: url('img/vara-pendurada-em-uma-arvore_1259-93f');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -41,15 +41,69 @@ section {
     margin: 0 auto;
 }
 
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.botao-inicio {
+    background-color: var(--verde-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--verde-claro);
+}
+
+
+#Agrinho {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/planta.avif') top right no-repeat,
+        url('img/planta.avif') bottom left no-repeat;
+    background-size: 180px 180px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#Agrinho .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--verde-claro);
+    color: var(--laranja-claro);
 }
 
 #galeria {
-    background-color: #d3ecd5;
+    background-color: #f4f8fa;
 
 }
 
@@ -59,7 +113,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/backgroud2.jpg');
+    background-image: url('img/campo-de-morangos.avif');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -67,7 +121,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #6a9674 85% 0%);
+    background-color: #577c57 85% 0%);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -78,7 +132,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: rgb(173, 218, 167)
+    background-color: rgb(171, 224, 180)
     border: none;
     font-weight: bold;
 }
@@ -96,8 +150,9 @@ h2 {
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
+}
 
-    .opcoes-acessibilidade{
+.opcoes-acessibilidade{
     margin-top:10px;
     display: flex;
     flex-direction: column;
@@ -108,6 +163,18 @@ h2 {
 }
 .apresenta-lista{
     display: none;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
 
 .alto-contraste .nav-link{
